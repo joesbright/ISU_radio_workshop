@@ -53,7 +53,7 @@ To install Dump1090 either:
 
 1. If you are running a MacOS system and you have installed homebrew you can easily install Dump1090 using the command `brew install dump1090-mutability` in your terminal.
 
-2. On Windows...
+2. On Windows go to [this link](https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip) and click the "Raw" button to download the .zip file. Unpack the zip folder and open a terminal by typing `cmd` in a Windows search bar and clicking on Command Prompt. In the Command Prompt type `cd <path to your folder>` where the path is where you downloaded the file. Once in the file you can see all files in the folder by typing `dir`. The path to the folder might look something like `C:\Users\idja\Downloads\dump1090-win.1.10.3010.14>` but will depend on your system. In this folder type `dump1090.exe --interactive` into your Command Prompt. 
 
 ![Alt text](Tutorial_Images/Dump1090_TERMINAL.png "SDR++ Source")
 *This simple terminal output shows the Dump1090 software decoding ADS-B data from aircraft over northern California, USA.*
